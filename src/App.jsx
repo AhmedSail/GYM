@@ -8,6 +8,7 @@ import Tabs from "./components/Tabs/Tabs";
 import Testimationals from "./components/Testimationals/Testimationals";
 import Discount from "./components/Discount/Discount";
 import Footer from "./components/Footer/Footer";
+import BackToTopButton from "./components/BackToTop/BackToTop";
 function App() {
   return (
     <div className="overflow-x-hidden">
@@ -20,6 +21,7 @@ function App() {
       <Testimationals />
       <Discount />
       <Footer />
+      <BackToTopButton />
     </div>
   );
 }
